@@ -9,7 +9,7 @@ echo -e "\n"
 sleep 1
 echo -e "\e[33m [INFO] IDLEをインストールします。"
 sleep 0.5
-echo -e "\e[33m [INFO] インストールするIDLEのバージョン:"$1
+echo -e "\e[33m [INFO] インストールするIDLEのバージョン:"$1"\e[m"
 echo -e "\n"
 sleep 1
 sudo apt -y install idle-python$1
